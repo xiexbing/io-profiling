@@ -1,0 +1,18 @@
+[
+{"ts": 1646628189512004, "dur": 29, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "write", "args": {"fd": 14, "buf": "0x7fffa5e26854", "count": 4 }, "pathname": "pipe", "return": 4},
+{"ts": 1646628189512012, "dur": 22, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "read", "args": {"fd": 12, "buf": 0x7f85edfe3c74, "count": 4}, "pathname": "pipe", "return": 4},
+{"ts": 1646628189512038, "dur": 2, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "read", "args": {"fd": 12, "buf": 0x7f85edfe3c74, "count": 4}, "pathname": "pipe", "return": 18446744073709551615},
+{"ts": 1646628189512049, "dur": 3, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "read", "args": {"fd": 33, "buf": 0x7fffa5e26880, "count": 8}, "pathname": "/sys/class/infiniband/mlx5_0/ports/1/gid_attrs/types/0", "return": 18446744073709551615},
+{"ts": 1646628189517536, "dur": 33, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "fprintf", "args": {"stream": "0x7f85f4c906e0"}, "pathname": "stdout", "return": 36},
+{"ts": 1646628189517590, "dur": 123, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "open", "args": {"pathname": "data_dir/posix_write", "flags": 66, "mode": 436}, "return": 35},
+{"ts": 1646628189517722, "dur": 3, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "lseek", "args": {"fd": 35, "offset": 1048576, "whence": 0}, "pathname": "data_dir/posix_write", "return": 1048576},
+{"ts": 1646628189517727, "dur": 799, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "write", "args": {"fd": 35, "buf": "0x7f85e447b000", "count": 1048576 }, "pathname": "data_dir/posix_write", "return": 1048576},
+{"ts": 1646628189584684, "dur": 106, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "close", "args": {"fd": 35}, "pathname": "data_dir/posix_write", "return": 0},
+{"ts": 1646628189585345, "dur": 13, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "fprintf", "args": {"stream": "0x7f85f4c906e0"}, "pathname": "stdout", "return": 56},
+{"ts": 1646628189585360, "dur": 4, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "fprintf", "args": {"stream": "0x7f85f4c906e0"}, "pathname": "stdout", "return": 55},
+{"ts": 1646628189585365, "dur": 3, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "fprintf", "args": {"stream": "0x7f85f4c906e0"}, "pathname": "stdout", "return": 51},
+{"ts": 1646628189585370, "dur": 2, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "fprintf", "args": {"stream": "0x7f85f4c906e0"}, "pathname": "stdout", "return": 50},
+{"ts": 1646628189585374, "dur": 2, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "fprintf", "args": {"stream": "0x7f85f4c906e0"}, "pathname": "stdout", "return": 57},
+{"ts": 1646628189585377, "dur": 3, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "POSIX", "name": "fprintf", "args": {"stream": "0x7f85f4c906e0"}, "pathname": "stdout", "return": 56},
+{"ts": 1646628189585614, "dur": 1, "ph": "X", "tid": 0, "pid": 1, "step": 0, "cat": "TAU", "name": "program exit"}
+]

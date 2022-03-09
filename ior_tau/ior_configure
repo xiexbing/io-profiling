@@ -1,0 +1,7 @@
+#configure IOR
+
+module load hdf5
+
+./configure -with-hdf5 
+
+make
